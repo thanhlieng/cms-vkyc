@@ -1495,10 +1495,10 @@ const LayoutButtonCamera = ({
             )}
             {/* {isShowCloseRoom && egressId && ( */}
             <Button
-                type="danger"
+               
                 className="gx-mb-0"
                 onClick={closeRoom}
-                style={{ display: 'flex', alignItems: 'center', marginTop: 10 }}
+                style={{ display: 'flex', alignItems: 'center', marginTop: 10, color:'red' }}
                 icon={<IconAntd icon="RollbackOutlined" />}
             >
                 Đóng phòng
